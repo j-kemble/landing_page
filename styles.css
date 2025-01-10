@@ -1,72 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
-  font-family: "Roboto", Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
 }
 
-header, footer {
+/* HEADER */
+
+header {
   background-color: #1f2937;
 }
 
-.headerlogo {
-  color: #f9faf8;
-  font-size: 24px;
+.headercontainer {
+  display: flex;
+  padding-top: 2vh;
+}
+
+.headerlogobox {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 50vw;
+}
+
+#headerlogo {
+font-size: 24px;
+color: #f9faf8;
 }
 
 .headerinfo {
-  color: #e5e7eb;
-  font-size: 18px;
+  box-sizing: border-box;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
 }
 
-.descriptionheader {
-  font-weight: 900;
-  font-size: 48px;
-  color: #f9faf8;
+#headerinfo1,
+#headerinfo2,
+#headerinfo3 {
+box-sizing: border-box;
+padding: 0 1vw;
+font-size: 18px;
+color: #e5e7eb;
 }
 
-.descriptiontext {
-  font-size: 18px;
-  color: #e5e7eb;
+.fulldescriptioncontainer {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  width: 100vw;
+  padding: 15vh 0;
 }
 
-.imgshoutout {
-  color: #f9faf8;
-  font-size: 10px;
+.descriptioncontainer {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
 }
 
-a {
-  color: #e5e5e5;
+#descriptionheader {
+font-size: 48px;
+font-weight: 900;
+color: #f9faf8;
+width: 31vw;
 }
 
-a:hover {
-  color: #AC4369;
+#descriptiontext {
+font-size: 16px;
+color: #e5e7eb;
+width: 31vw;
+margin-top: 1vh;
 }
 
-
-
-.quote {
-  background-color: #e5e7eb;
+#descriptionimage {
+box-sizing: border-box;
+width: 600px;
+height: auto;
+margin-right: 7vw;
 }
 
-#quote {
-  font-size: 36px;
-  color: #1f2937;
-  font-style: italic;
-  font-weight: 300;
+.imagecontainer {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-#name {
-  font-weight: 500;
-  font-size: 16px;
-  font-style: normal;
+#imgshoutout {
+color: #e5e7eb;
 }
 
-.contactheader {
-  color: #e5e7eb;
+#shoutoutlink {
+color:deepskyblue;
 }
 
-#contactbutton {
-  background-color: #3882f6;
-  color: #f9faf8;
-  border-radius: 6px;
-  border-color: #f9faf8;
-  padding: 3px 20px;
+#shoutoutlink:hover {
+color:lightblue ;
 }
+
+/* BODY-INFOHEADER */
+
+#infoheader {
+text-align: center;
+font-size: 36px;
+font-weight: 900;
+color: #1f2937;
+padding: 2em;
+}
+
+/* BODY-PICINFO */
+
+.picinfocontainer {
+  box-sizing: border-box;
+  border: 2px solid red;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100vw;
+  padding: 5em;
+}
+
+.firstpicblock {
+
+}
+
+.secondpicblock {
+
+}
+
+.thirdpicblock {
+
+}
+
+.fourthpicblock {
+
+}
+
+#picblock1,
+#picblock2,
+#picblock3,
+#picblock4 {
+
+}
+
+/* BODY-QUOTE */
+
+/* FOOTER */
