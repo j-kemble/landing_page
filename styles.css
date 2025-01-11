@@ -1,151 +1,74 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
-  margin: 0;
+  font-family: "Roboto", sans-serif;
   padding: 0;
-  font-family: Roboto;
+  margin: 0;
 }
 
-/* HEADER */
-
-header {
+.content_container {
+  display: flex;
+  flex-wrap: wrap;
   background-color: #1f2937;
+  min-height: 75vh;
 }
 
-.headercontainer {
-  display: flex;
-  padding-top: 2vh;
-}
-
-.headerlogobox {
-  display: flex;
-  justify-content: center;
-  box-sizing: border-box;
-  width: 50vw;
-}
-
-#headerlogo {
-font-size: 24px;
-color: #f9faf8;
-}
-
-.headerinfo {
-  box-sizing: border-box;
-  width: 50vw;
-  display: flex;
-  justify-content: center;
-}
-
-#headerinfo1,
-#headerinfo2,
-#headerinfo3 {
-box-sizing: border-box;
-padding: 0 1vw;
-font-size: 18px;
-color: #e5e7eb;
-}
-
-.fulldescriptioncontainer {
-  display: flex;
-  justify-content: space-between;
-  box-sizing: border-box;
+.header_container {
   width: 100vw;
-  padding: 15vh 0;
-}
-
-.descriptioncontainer {
-  width: 50vw;
+  height: 40px;
+  padding-top: 20px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-end;
+  justify-content: space-around;
 }
 
-#descriptionheader {
-font-size: 48px;
-font-weight: 900;
-color: #f9faf8;
-width: 31vw;
+#header_logo {
+  font-size: 24px;
+  color: #f9faf8;
 }
 
-#descriptiontext {
-font-size: 16px;
-color: #e5e7eb;
-width: 31vw;
-margin-top: 1vh;
+#header_link1,
+#header_link2,
+#header_link3,
+#description_text {
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
-#descriptionimage {
-box-sizing: border-box;
-width: 600px;
-height: auto;
-margin-right: 7vw;
+#header_link1,
+#header_link2,
+#header_link3 {
+  padding-right: 10px;
 }
 
-.imagecontainer {
-  width: 50vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-#imgshoutout {
-color: #e5e7eb;
-}
-
-#shoutoutlink {
-color:deepskyblue;
-}
-
-#shoutoutlink:hover {
-color:lightblue ;
-}
-
-/* BODY-INFOHEADER */
-
-#infoheader {
-text-align: center;
-font-size: 36px;
-font-weight: 900;
-color: #1f2937;
-padding: 2em;
-}
-
-/* BODY-PICINFO */
-
-.picinfocontainer {
+.hero_container {
   box-sizing: border-box;
-  border: 2px solid red;
   display: flex;
   justify-content: space-evenly;
-  width: 100vw;
-  padding: 5em;
 }
 
-.firstpicblock {
-
+.description_container {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  align-items: center;
+  justify-content: center;
 }
 
-.secondpicblock {
-
+.image_container {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  align-items: center;
+  justify-content: center;
 }
 
-.thirdpicblock {
-
+#description_header {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+  width: 600px;
 }
 
-.fourthpicblock {
-
+#description_text {
+  width: 600px;
 }
-
-#picblock1,
-#picblock2,
-#picblock3,
-#picblock4 {
-
-}
-
-/* BODY-QUOTE */
-
-/* FOOTER */
