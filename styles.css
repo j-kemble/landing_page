@@ -19,14 +19,19 @@
   height: 40px;
   padding-top: 30px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #header_logo {
   font-size: 24px;
   color: #f9faf8;
   font-weight: 600;
-  padding-right: 300px;
+  margin-left: 150px;
+}
+
+.header-info {
+  margin-right: 150px;
 }
 
 #header_link1,
@@ -46,9 +51,10 @@
 .hero_container {
   box-sizing: border-box;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
-  margin-left: 150px;
+  gap: 50px;
+  width: 100vw;
 }
 
 /*.description_container {
@@ -91,7 +97,9 @@
 .pic_info_container {
   box-sizing: border-box;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
   width: 100vw;
   height: 400px;
 }
@@ -101,12 +109,11 @@
 .pic_container3,
 .pic_container4 {
   box-sizing: border-box;
-  width: 25vw;
+  width: 200px;
   display: flex;
   flex-direction: column;
-  justify-content:first baseline;
+  align-items: center;
   text-align: center;
-  padding: 80px 10px 10px 0px;
 }
 
 #pic_block1,
@@ -123,7 +130,6 @@
 #pic_info4 {
   box-sizing: border-box;
   width: 200px;
-  margin-left: 70px;
 }
 
 .quote_container {
@@ -145,7 +151,8 @@
 }
 
 #name {
-  margin-left: 40vw;
+  width: 65vw;
+  text-align: right;
   font-weight: 600;
 }
 
